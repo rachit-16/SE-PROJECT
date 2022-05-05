@@ -1,0 +1,89 @@
+.Sidebar {
+  height: inherit;
+  width: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-color: #111;
+}
+/* .logout {
+  margin-right: none !important;
+  align-items: center;
+  padding: auto;
+  color: white;
+} */
+
+.Sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.Sidebar a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.Sidebar button {
+  background: none !important;
+  border: none;
+  padding: 8px 8px 8px 32px;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.Sidebar button:hover {
+  color: #f1f1f1;
+}
+
+.Sidebar button:focus {
+  outline: none;
+}
+
+.Sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: #aaa;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.main {
+  text-align: left;
+  transition: margin-left 0.5s;
+  margin: 0;
+  padding: 16px;
+  align-items: center;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .Sidebar {
+    padding-top: 15px;
+  }
+  .Sidebar a {
+    font-size: 18px;
+  }
+}

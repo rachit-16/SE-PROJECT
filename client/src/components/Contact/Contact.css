@@ -1,0 +1,14 @@
+.contactForm {
+  /* margin: auto; */
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 50px;
+  border-style: solid;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: dimgrey;
+  border-radius: 2%;
+}
+.contactheading {
+  color: white;
+}

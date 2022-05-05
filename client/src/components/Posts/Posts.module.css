@@ -1,0 +1,139 @@
+.Posts {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(41, 41, 41);
+}
+
+.container {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+}
+
+.posts {
+  margin: 5px 8px 2px 0;
+  padding: 10px;
+  width: 70%;
+  height: 87vh;
+  overflow-y: auto;
+}
+
+.noPostIndicator {
+  color: #eee;
+  font-size: 2em;
+}
+
+.searchArea {
+  position: fixed;
+  top: 88%;
+  margin: 0 auto;
+  padding: 15px 20px 15px 0;
+  width: 100%;
+  border-top: 1px solid rgb(56, 56, 56);
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  margin: 0 10px;
+  padding: 10px 15px;
+  max-width: 80%;
+  flex-grow: 1;
+  text-align: left;
+  background-color: rgba(235, 220, 12, 0.698);
+  color: rgb(3, 3, 3);
+  border-radius: 1em;
+  border: none;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  color: rgb(3, 3, 3);
+  opacity: 0.85;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid rgb(14, 14, 14);
+  box-shadow: 5px 5px 10px rgb(35, 35, 35);
+}
+
+.searchArea svg {
+  margin-left: 20px;
+  cursor: pointer;
+  fill: #b2ff03ed;
+}
+
+.makePost {
+  padding: 10px 15px 10px 25px;
+  color: #ddd;
+  border-left: 1px solid rgb(56, 56, 56);
+}
+
+.makePost form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.makePost div {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.makePost label {
+  margin-bottom: 4px;
+  display: block;
+  text-align: left;
+}
+
+.makePost input,
+.makePost textarea {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ccc;
+}
+
+.makePost input:focus,
+.makePost textarea:focus {
+  outline: none;
+  box-shadow: 5px 5px 10px rgb(35, 35, 35);
+}
+
+.makePost input {
+  padding: 15px 10px;
+}
+
+.makePost textarea {
+  padding: 10px;
+  height: 250px;
+  resize: none;
+}
+
+.makePost button {
+  margin-top: 10px;
+  padding: 8px 35px;
+  border-radius: 1em;
+  border: none;
+  background-color: rgb(86, 212, 170);
+  letter-spacing: 1px;
+}
+
+.makePost button:hover {
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgb(35, 35, 35);
+}
+
+.makePost button:active {
+  transform: scale(1.05);
+  font-weight: bold;
+}

@@ -1,0 +1,65 @@
+.AlgorithmDescriber {
+  display: flex;
+  color: #eee;
+}
+
+.content {
+  margin: 0 32px;
+  padding: 16px;
+  width: 80%;
+}
+
+.content h2 {
+  margin: 0;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.content p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.visualizeButton {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  color: #eee;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 250px;
+  background-color: rgb(54, 124, 13);
+}
+.practiceButton {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  color: #eee;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 250px;
+  background-color: rgb(40, 27, 160);
+  margin-left: 5px;
+}
+
+.visualizeButton:hover,
+.practiceButton:hover {
+  font-weight: bold;
+  transform: scaleX(1.1) scaleY(1.1);
+}

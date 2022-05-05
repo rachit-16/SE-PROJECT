@@ -1,0 +1,58 @@
+.Sidebar {
+  height: 100%;
+  width: 500px;
+  padding: 0 20px 0 20px;
+  /* position: fixed; */
+  /* z-index: 1000; */
+  /*top: 0;
+      left: 0;*/
+  background-color: rgb(25, 25, 25);
+  color: #eee;
+  /* overflow-x: hidden; */
+  /* transition: 0.5s; */
+  /* padding: 10px; */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Editor {
+  /* width: 100%; */
+  box-shadow: 3px 3px 5px rgb(12, 12, 12);
+}
+
+.Sidebar h2 {
+  margin: 0;
+}
+
+.main {
+  margin-top: 20px;
+  text-align: left;
+  /* transition: margin-left 0.5s; */
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px,
+  change the style of the sidenav (less padding and a smaller font size) */
+/* @media screen and (max-height: 450px) {
+  .Sidebar {
+    padding-top: 15px;
+  }
+} */
+.Button {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: green;
+  color: #eee;
+  font-size: 18px;
+  width: 40%;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  font-weight: bold;
+  transform: scaleX(1.1) scaleY(1.1);
+}

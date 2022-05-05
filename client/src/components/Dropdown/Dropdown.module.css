@@ -1,0 +1,15 @@
+.Dropdown {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  color: #eee;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 250px;
+  background-color: rgb(54, 124, 13);
+}
+.option {
+  background-color: white;
+  color: black;
+}
